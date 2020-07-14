@@ -28,3 +28,23 @@ li a {
 li a:hover {
     background-color: #000000;
 }
+section {
+    padding: 20px;
+    border: 1px dotted red;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+section:last-of-type {
+    margin-bottom: 50px;
+}
+
+footer {
+    color: white;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+}
