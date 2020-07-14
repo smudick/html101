@@ -1,7 +1,9 @@
 body {
-    background-color: lightgray;
+    background-color: black;
+    color: gold;
     margin: 0;
     padding: 0;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 ul {
@@ -22,7 +24,6 @@ li a {
     padding: 14px 16px;
     display: block;
     text-decoration: none;
-    font-family: 'Press Start 2P', cursive;
 }
 
 li a:hover {
@@ -30,7 +31,7 @@ li a:hover {
 }
 section {
     padding: 20px;
-    border: 1px dotted red;
+    border: 1px dotted gold;
     margin: 10px;
     border-radius: 10px;
 }
@@ -50,24 +51,24 @@ footer {
 }
 
 .card {
-    border: 1px solid blue;
+    border: 1px solid gold;
     width: 30%;
     float: left;
     margin: 5px;
 }
 
-.card img {
-    width: 100%;
-}
-
 .people-card {
-    border: 1px solid red;
     float: left;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    padding: 5px;
+    width: 20%;
     margin: 5px;
     text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
-.card img {
-    width: 50px;
-    height: 50px;
+.person img {
+    width: 250px;
+    height: 250px;
 }
