@@ -48,3 +48,14 @@ footer {
     bottom: 0;
     height: 30px;
 }
+
+.card {
+    border: 1px solid blue;
+    width: 30%;
+    float: left;
+    margin: 5px;
+}
+
+.card img {
+    width: 100%;
+}
